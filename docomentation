@@ -1,0 +1,99 @@
+MANASES KIPRUTO SCCJ/01105/2018
+FASTSERV 
+Garage Management System
+
+Table of Contents
+
+1. Overview 
+2. Entity Relationship Diagram 
+3. Flow Charts 
+4. Conclusion
+
+Overview
+FASTSERV is an all-in-one garage management system designed to help streamline the processes of a garage business. It provides an integrated solution to manage customer information, service orders, invoicing, inventory and more. FASTSERV is an all-in-one solution to help garages improve efficiency and maximize revenue.
+
+FASTSERV provides comprehensive customer management, automated service order processing, invoicing, and billing, inventory tracking and management, and comprehensive reporting and analytics. With these features, garages can streamline operations, maximize revenue, improve customer satisfaction, automate tasks, and reduce manual data entry, access real-time data and insights, and reduce costs and improve profitability.
+
+FASTSERV is the ideal solution for garages looking to take their operations to the next level. With its comprehensive suite of features, FASTSERV helps to streamline processes, maximize revenue, and improve customer satisfaction.
+
+Features: 
+• Comprehensive customer management 
+• Automated service order processing 
+• Invoicing and billing 
+• Inventory tracking and management 
+• Comprehensive reporting and analytics 
+
+Benefits: 
+• Streamline operations and increase efficiency 
+• Maximize revenue by optimizing pricing and inventory control 
+• Improve customer satisfaction by providing personalized service 
+• Automate tasks and reduce manual data entry 
+• Access real-time data and insights to make informed decisions 
+• Reduce costs and improve profitability
+
+Flow Charts
+Flow Charts are used to illustrate the flow of data and processes within the FASTSERV system. They are used to map out the various steps and interactions that occur within the system and to identify any potential issues or bottlenecks
+
+ 
+ 		 
+ 
+ 
+ Entity Relationship Diagram
+The Entity Relationship Diagram (ERD) is a visual representation of the data model used to store and manage the data within the FASTSERV system. It is used to illustrate entities, relationships and attributes. The ERD is an important tool for understanding the data structure of the system and its components.
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Use case diagram 
+
+Classes: their attributes and methods
+1. Car:Attributes: Brand, Model, Year, Number Plate, Owner, Insurance
+Methods: Drive(), Park(), Sell(), Repair()
+
+2. Customer:Attributes: Name, Address, Phone Number, Email
+Methods: Register(), PayBill(), SubmitClaim(), ScheduleService()
+
+3. Employee:Attributes: Name, Address, Phone Number, Email, Title
+Methods: ServeCustomer(), MaintainInventory(), ProcessOrders(), UpdateDatabase()
+
+4. Supplier:Attributes: Name, Address, Phone Number, Email
+Methods: OrderParts(), ReceiveParts(), TrackInventory(), ManageInvoices()
+
+5. Service:Attributes: Type, Cost, Duration
+Methods: ScheduleService(), PerformService(), InvoiceCustomer()
+
+6. Inventory:Attributes: Part Number, Part Name, Part Description, Quantity, Cost
+Methods: CheckInventory(), OrderParts(), ReceiveParts(), TrackInventory()
+
+7. Order:Attributes: Order Number, Customer Name, Part Number, Quantity
+Methods: CreateOrder(), ProcessOrder(), TrackOrder(), UpdateDatabase()
+
+8. Payment:Attributes: Payment Type, Amount
+Methods: AcceptPayment(), ProcessPayment(), GenerateReceipt()
+
+
+
+Conclusion
+
+FASTSERV is a comprehensive garage management system that provides an efficient way of managing customer data, inventory, staff and other important information. The system includes a customer portal, which allows customers to book appointments and check the status of their orders. The system also includes flow charts and entity relationship diagrams, which provide a clear overview of the system’s processes and relationships. These diagrams are essential in understanding the system and ensuring its efficient operation.
