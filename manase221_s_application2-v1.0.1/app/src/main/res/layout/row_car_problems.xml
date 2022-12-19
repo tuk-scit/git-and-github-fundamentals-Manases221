@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="carProblemsRowModel" type="com.manasesapplication.app.modules.carproblems.data.model.CarProblemsRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowlanguage"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end" android:id="@+id/txtLanguage"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_4pxv"
+            android:layout_marginTop="@dimen/_13pxv"
+            android:layout_weight="0.64" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{carProblemsRowModel.txtLanguage}"
+            style="@style/txtInterlight20" tools:text="@string/lbl_low_engine_oil"/>
+        <FrameLayout android:id="@+id/frameCheckmark"
+            android:layout_height="@dimen/_38pxv"
+            android:layout_marginStart="@dimen/_110pxh" android:layout_width="@dimen/_70pxh">
+            <ImageView android:id="@+id/imageCheckmarkiconOne"
+                android:layout_gravity="top|center"
+                android:layout_height="@dimen/_26pxh"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_18pxh"
+                android:layout_marginStart="@dimen/_18pxh"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="@dimen/_34pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_checkmarkicon"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_checkmarkicon"/>
+            <View android:background="@color/green_A700_66"
+                android:id="@+id/viewRectangleFourteenOne"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_38pxv" android:layout_width="@dimen/_70pxh"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>
